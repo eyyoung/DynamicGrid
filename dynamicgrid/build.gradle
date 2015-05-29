@@ -24,7 +24,7 @@ android {
 
 apply plugin: 'com.jfrog.bintray'
 
-group = 'me.yytech.android.DynamicGrid' //maven POM group
+group = 'me.yytech.android' //maven POM group
 version = '1.0.0' // maven POM real version
 
 bintray {
@@ -34,7 +34,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "me.yytech.android.CitySelect"
+        name = "me.yytech.android.dynamicgrid"
         websiteUrl = "https://github.com/eyyoung/DynamicGrid"
         vcsUrl = "https://github.com/eyyoung/DynamicGrid.git"
         issueTrackerUrl = 'https://github.com/eyyoung/DynamicGrid/issues'
